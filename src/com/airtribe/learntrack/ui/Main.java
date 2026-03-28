@@ -14,6 +14,10 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Scanner;
 
+/**
+ * Main application class acting as the shell Interface for LearnTrack.
+ * Handles continuous loop scanning for user inputs and mapping route parameters.
+ */
 public class Main {
     private static StudentService studentService = new StudentService();
     private static CourseService courseService = new CourseService();
